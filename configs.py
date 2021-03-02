@@ -20,24 +20,24 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📝 **Language:** [Python3](https://www.python.org)
 
-📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
+📚 **Library:** [Pyrogram](https:)
 
-📡 **Hosted on:** [Heroku](https://heroku.com)
+📡 **Hosted on:** [Amazon](https://amazon.com)
 
-🧑🏻‍💻 **Developer:** @AbirHasan2005
+🧑🏻‍💻 **Developer:** @filmsandtrends_owner
 
-👥 **Support Group:** [Linux Repositories](https://t.me/linux_repo)
+👥 **Support Group:** [Films & Trends](https://t.me/joinchat/U1zAAZzvU8yOvW17)
 
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Discovery_Updates)
+📢 **Updates Group:** [Films & Trends](.https://t.me/joinchat/U1zAAZzvU8yOvW17)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @AbirHasan2005
+🧑🏻‍💻 **Developer:** @filmsandtrrnds_owner
 
 Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
 
 Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
 
-[Donate Now](https://www.paypal.me/AbirHasan2005) (PayPal)
+[Donate Now](https://www.paypal.com) (PayPal)
 """
 	HOME_TEXT = """
 Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
