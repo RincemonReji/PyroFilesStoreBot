@@ -64,7 +64,7 @@ async def start(bot, cmd):
 				if user.status == "kicked":
 					await bot.send_message(
 						chat_id=cmd.from_user.id,
-						text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/linux_repo).",
+						text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/joinchat/U1zAAZzvU8yOvW17).",
 						parse_mode="markdown",
 						disable_web_page_preview=True
 					)
@@ -72,7 +72,7 @@ async def start(bot, cmd):
 			except UserNotParticipant:
 				await bot.send_message(
 					chat_id=cmd.from_user.id,
-					text="**Please Join My Updates Channel to use this Bot!**\n\nDue to Overload, Only Channel Subscribers can use the Bot!",
+					text="**Please Join My Updates Group to use this Bot!**\n\nDue to Overload, Only Channel Subscribers can use the Bot!",
 					reply_markup=InlineKeyboardMarkup(
 						[
 							[
@@ -86,7 +86,7 @@ async def start(bot, cmd):
 			except Exception:
 				await bot.send_message(
 					chat_id=cmd.from_user.id,
-					text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+					text="Something went Wrong. Contact my [Support Group](https://t.me/joinchat/U1zAAZzvU8yOvW17).",
 					parse_mode="markdown",
 					disable_web_page_preview=True
 				)
@@ -98,8 +98,8 @@ async def start(bot, cmd):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
-						InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+						InlineKeyboardButton("Support Group", url="https://t.me/joinchat/U1zAAZzvU8yOvW17"),
+						InlineKeyboardButton("Bots Group", url="https://t.me/joinchat/U1zAAZzvU8yOvW17")
 					],
 					[
 						InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -128,7 +128,7 @@ async def main(bot, message):
 				f"**Your File Stored in my Database!**\n\nHere is the Permanent Link of your file: {share_link} \n\nJust Click the link to get your file!",
 				parse_mode="Markdown",
 				reply_markup=InlineKeyboardMarkup(
-					[[InlineKeyboardButton("Open Link", url=share_link)], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates"), InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")]]
+					[[InlineKeyboardButton("Open Link", url=share_link)], [InlineKeyboardButton("Bots Group", url="https://t.me/joinchat/U1zAAZzvU8yOvW17"), InlineKeyboardButton("Support Group", url="https://t.me/joinchat/U1zAAZzvU8yOvW17")]]
 				)
 			)
 		except Exception as err:
@@ -240,7 +240,7 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Source Codes of Bot", url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
+						InlineKeyboardButton("Source Codes of Bot", url="https://t.me/joinchat/U1zAAZzvU8yOvW17")
 					],
 					[
 						InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -257,7 +257,7 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Source Codes of Bot", url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
+						InlineKeyboardButton("Source Codes of Bot", url="https://t.me/joinchat/U1zAAZzvU8yOvW17")
 					],
 					[
 						InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -274,8 +274,8 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
-						InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+						InlineKeyboardButton("Support Group", url="https://t.me/joinchat/U1zAAZzvU8yOvW17"),
+						InlineKeyboardButton("Bots Group", url="https://t.me/joinchat/U1zAAZzvU8yOvW17")
 					],
 					[
 						InlineKeyboardButton("About Bot", callback_data="aboutbot"),
