@@ -31,7 +31,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 📢 **Updates Group:** [Films & Trends](.https://t.me/joinchat/U1zAAZzvU8yOvW17)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @filmsandtrrnds_owner
+🧑🏻‍💻 **Developer:** @filmsandtrends_owner
 
 Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
 
