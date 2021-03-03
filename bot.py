@@ -76,7 +76,7 @@ async def start(bot, cmd):
 					reply_markup=InlineKeyboardMarkup(
 						[
 							[
-								InlineKeyboardButton("🤖 Join Updates Channel", url=f"https://t.me/{Config.UPDATES_CHANNEL}")
+								InlineKeyboardButton("🤖 Join Updates Channel", url=f"https://t.me/joinchat/U1zAAZzvU8yOvW17")
 							]
 						]
 					),
