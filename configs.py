@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @filmsandtrends_owner
 
 import os
 
